@@ -1,0 +1,4 @@
+[".config/kak/plugins/plug.kak"]
+  type = "git-repo"
+  url = "https://github.com/andreyorst/plug.kak.git"
+  refreshPeriod = "168h"
