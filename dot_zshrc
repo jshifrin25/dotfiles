@@ -1,13 +1,5 @@
 source ~/.zplug/init.zsh
 
-zplug "plugins/git", from:oh-my-zsh
-
-zplug "kiurchv/asdf.plugin.zsh", defer:2
-
-zplug "plugins/debian", from:oh-my-zsh
-
-zplug "plugins/docker", from:oh-my-zsh
-
 zplug "plugins/ng", from:oh-my-zsh
 
 zplug "tinted-theming/base16-shell", dir:"$HOME/.config/base16-shell"
@@ -117,6 +109,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 source $ZSH/oh-my-zsh.sh
 
+plugins=(git asdf debian docker)
 # User configuration
 
 export MANPATH="$HOME/.local/share/man:/usr/local/man:$MANPATH"
